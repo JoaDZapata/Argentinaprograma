@@ -1,0 +1,219 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;600;700&display=swap');
+ *{
+    font-family: "Exo 2";
+    margin: 0;
+    padding: 0;
+}
+ html{
+    scroll-behavior: smooth;
+ }
+ .inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("foto2.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+ }
+ .inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: greenyellow;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px orangered;
+
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+
+} 
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+/*estilo generales*/
+.titulo-seccion{
+    font-family:"Yellowtail";
+    font-size: 1.5rem;
+}
+.formacion{
+    background-color: #fff;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.formacion .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.formacion .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.formacion .contenido-seccion .especial{
+    color: orangered;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.formacion .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+}
+.formacion .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.formacion .contenido-seccion .fila .col{
+    width: 30%;
+}
+
+.formacion .contenido-seccion .fila .col h3{
+    text-shadow: 0 0 3px orangered;
+    display: inline-block;
+    height: 60px;
+}
+
+.formacion .contenido-seccion .fila .col p{
+    display: block;
+    font-weight: bold;
+    margin: 8px;
+}
+/*datos-personales*/
+.datos-personales{
+    background-color: #fff;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.datos-personales .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+}
+.datos-personales .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.datos-personales .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.datos-personales .contenido-seccion .info .col{
+    width: 45%;
+}
+.datos-personales .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: orangered;
+    font-weight: bold;
+    border:  2px solid;
+    border: orangered;
+    padding: 10px;
+}
+.datos-personales .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.datos-personales .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid gray;
+}
+.datos-personales .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.datos-personales .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px ;
+    border-bottom: 1px solid gray;
+}
+.datos-personales .contenido-seccion .info .col table p{
+    font-size: 14px;
+ 
+}
+.datos-personales .contenido-seccion .info .col table .promedio{
+    display: block;
+    color: orangered;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.datos-personales .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid gray;
+    padding-left: 20px ;
+}
+.contactos{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("foto2.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.contactos .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    
+}
+.contactos .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30%;
+    justify-content: space-between;
+}
+.contactos .contenido-seccion .fila .col{
+    width: 30%;
+}
+.contactos {
+    text-align: center;
+    color: chartreuse;
+}
